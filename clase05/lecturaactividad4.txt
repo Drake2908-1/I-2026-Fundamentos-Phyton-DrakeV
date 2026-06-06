@@ -1,0 +1,3 @@
+Registro de estudiantes
+nombre: lena, carnet: 23, nota_final: 23.0
+nombre: deif, carnet: 34, nota_final: 34.0
