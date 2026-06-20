@@ -69,7 +69,7 @@ def analizar_contraseña(contraseña):
 
     
 
-
+contraseñas = []
 while True:
     print("Bienvenido al analizador de contraseñas seguras")
     print("1. Analizar contraseña")
@@ -81,10 +81,13 @@ while True:
     if opcion == 1:
         contraseña = input("Ingrese la contraseña a analizar: ")
         analizar_contraseña(contraseña)
+        contraseñas.append(contraseña)
     elif opcion == 2:
-        print("Contraseñas analizadas:", contraseña)
+        print("Contraseñas analizadas:", contraseñas)
     elif opcion == 3:
+        
         print("Contraseña segura generada:  ")
+
     elif opcion == 4:
         print("Gracias por usar el analizador de contraseñas seguras. ")
         break
