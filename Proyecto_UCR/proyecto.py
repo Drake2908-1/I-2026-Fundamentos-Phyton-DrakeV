@@ -112,8 +112,10 @@ while True:
         print("Contraseñas analizadas:", contraseñas)
     elif opcion == 3 :
         contrasena.generar()
-        print("Contraseña segura generada:  ", contrasena.generar())
-        break
+        nueva_clave = contrasena.generar()
+        print("Contraseña segura generada:  ", nueva_clave)
+        contraseñas.append(nueva_clave)
+
 
     elif opcion == 4:
         print("Gracias por usar el analizador de contraseñas seguras. ")
